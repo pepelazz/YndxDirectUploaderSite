@@ -1,0 +1,166 @@
+/* line 2, ../app/style/partials/_style.sass */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 5, ../app/style/partials/_style.sass */
+a, .link {
+  text-decoration: none;
+  color: #1a0dab;
+}
+/* line 8, ../app/style/partials/_style.sass */
+a:hover, .link:hover {
+  text-decoration: underline;
+}
+
+/* line 11, ../app/style/partials/_style.sass */
+.page-nav {
+  margin-left: 15rem;
+  padding-top: 1.8rem;
+  margin-right: 28rem;
+}
+/* line 15, ../app/style/partials/_style.sass */
+.page-nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 20, ../app/style/partials/_style.sass */
+.page-nav ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+/* line 23, ../app/style/partials/_style.sass */
+.page-nav ul li a {
+  color: black;
+  opacity: 0.4;
+  font-weight: 100;
+  font-size: 15px;
+}
+/* line 28, ../app/style/partials/_style.sass */
+.page-nav ul li a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* line 33, ../app/style/partials/_style.sass */
+.page-body {
+  margin-left: 15rem;
+  margin-right: 18rem;
+  margin-top: 4rem;
+}
+@media (max-width: 992px) {
+  /* line 33, ../app/style/partials/_style.sass */
+  .page-body {
+    margin-left: 2rem;
+  }
+}
+/* line 39, ../app/style/partials/_style.sass */
+.page-body > h1 {
+  font-size: 3.5rem;
+  opacity: 0.3;
+}
+/* line 42, ../app/style/partials/_style.sass */
+.page-body .step, .page-body .why-list {
+  padding-right: 10rem;
+  margin-bottom: 3rem;
+}
+/* line 45, ../app/style/partials/_style.sass */
+.page-body .step h2, .page-body .why-list h2 {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+/* line 48, ../app/style/partials/_style.sass */
+.page-body .step p, .page-body .why-list p {
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 0.3rem;
+}
+/* line 52, ../app/style/partials/_style.sass */
+.page-body .step .excl-instruction, .page-body .why-list .excl-instruction {
+  display: none;
+  clear: both;
+  border: 1px solid #ece6da;
+  background: #f8f5f0;
+  overflow: auto;
+  padding: 1rem;
+}
+/* line 59, ../app/style/partials/_style.sass */
+.page-body .step .excl-instruction p, .page-body .step .excl-instruction ul, .page-body .why-list .excl-instruction p, .page-body .why-list .excl-instruction ul {
+  font-size: 16px;
+}
+/* line 61, ../app/style/partials/_style.sass */
+.page-body .step .excl-instruction ul, .page-body .why-list .excl-instruction ul {
+  list-style: none;
+}
+/* line 63, ../app/style/partials/_style.sass */
+.page-body .step .excl-instruction hr, .page-body .why-list .excl-instruction hr {
+  border: 1px solid #ece6da;
+}
+/* line 65, ../app/style/partials/_style.sass */
+.page-body .step .excl-instruction.show, .page-body .why-list .excl-instruction.show {
+  display: block;
+}
+
+/* line 68, ../app/style/partials/_style.sass */
+.excl-instruction-click {
+  cursor: pointer;
+}
+/* line 70, ../app/style/partials/_style.sass */
+.excl-instruction-click p {
+  float: left;
+}
+/* line 72, ../app/style/partials/_style.sass */
+.excl-instruction-click img {
+  width: 25px;
+  margin-top: 7px;
+  margin-left: 6px;
+}
+/* line 76, ../app/style/partials/_style.sass */
+.excl-instruction-click img.hide {
+  display: none;
+}
+
+/* line 79, ../app/style/partials/_style.sass */
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 18rem;
+  background: #f8f5f0;
+  border-left: 1px solid #ece6da;
+}
+/* line 88, ../app/style/partials/_style.sass */
+#sidebar .section {
+  padding: 2rem;
+}
+/* line 90, ../app/style/partials/_style.sass */
+#sidebar .section:first-child {
+  border-bottom: 1px solid #ece6da;
+}
+/* line 92, ../app/style/partials/_style.sass */
+#sidebar .logo {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+/* line 95, ../app/style/partials/_style.sass */
+#sidebar .logo-text {
+  font-size: 15px;
+}
+/* line 97, ../app/style/partials/_style.sass */
+#sidebar .price {
+  text-align: center;
+  color: white;
+  background-color: #a6c776;
+  border-radius: 3px;
+  padding: 0.8rem;
+}
+/* line 103, ../app/style/partials/_style.sass */
+#sidebar .email {
+  margin-top: 2rem;
+  text-align: center;
+  opacity: 0.5;
+}
